@@ -41,7 +41,6 @@ export default function CartPage() {
     const initial = Object.fromEntries(
       items.map((item) => [item.id, item.quantity || 1])
     );
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setQuantities(initial);
   }, [items]);
 

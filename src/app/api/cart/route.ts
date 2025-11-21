@@ -4,17 +4,17 @@ import fs from "fs";
 import path from "path";
 import { authOptions } from "@/lib/auth";
 
-// const dbPath = path.join(
-//   process.cwd(),
-//   "src",
-//   "app",
-//   "api",
-//   "cart",
-//   "data",
-//   "cart-db.json"
-// );
+const dbPath = path.join(
+  process.cwd(),
+  "src",
+  "app",
+  "api",
+  "cart",
+  "data",
+  "cart-db.json"
+);
 
-const dbPath = "../cart/data/cart-db.json"
+
 
 function readDB() {
   try {
